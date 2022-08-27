@@ -26,6 +26,20 @@ button {
   font-weight: 500;
   line-height: 160%;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  color: #212353;
+}
+
+p {
+  color: #4b5d68;
+}
 .main {
   display: flex;
   align-items: center;
@@ -58,6 +72,7 @@ a:visited,
 a:active {
   text-decoration: none;
 }
+/* ----------------------------------------------------------------------------------------- */
 .nav {
   margin: 0;
   position: absolute;
@@ -71,16 +86,13 @@ a:active {
   align-items: center;
   justify-content: space-between;
 }
-.nav_first a {
-  color: #212353;
-}
+
 .demo_btn {
   padding: 17px 69px 17px 29px;
   background-color: #ffffff;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-color: rgba(255, 255, 255, 0);
   border-radius: 50px;
-  color: #212353;
 }
 .figure {
   display: flex;
@@ -102,6 +114,7 @@ a:active {
   background: #f063b8;
   border-radius: 20px;
 }
+/* ----------------------------------------------------------------------------------------- */
 .first {
   height: 70vh;
   align-items: center;
@@ -121,12 +134,10 @@ a:active {
   font-family: "Helvetica";
   font-size: 80px;
   font-weight: 700;
-  line-height: 80px;
-  color: #212353;
+  line-height: 110%;
 }
 .first_left p {
   width: 60%;
-  color: #4b5d68;
 }
 .first_btn {
   color: #fff;
@@ -145,12 +156,12 @@ a:active {
   background-size: cover;
   transform: translate(373px, 91px);
 }
+/* ----------------------------------------------------------------------------------------- */
 .second {
   display: flex;
   background-color: #f063b826;
   border-radius: 50px;
   width: 1100px;
-  /* align-self: flex-start; */
 }
 
 .second_left {
@@ -172,8 +183,62 @@ a:active {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  color: #212353;
 }
-.second_right p {
-  color: #4b5d68;
+/* ----------------------------------------------------------------------------------------- */
+.third {
+  flex-direction: column;
+}
+.third_main {
+  flex-direction: column;
+  align-items: center;
+}
+.third h3 {
+  font-family: "Helvetica";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 10%;
+}
+.third_cont {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.n {
+  display: flex;
+  width: 440px;
+  height: 360px;
+  border-radius: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  clip-path: polygon(26% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.n *{
+  padding-left: 150px;
+}
+.n p {
+  font-size: 16px;
+
+}
+.n:nth-child(odd) {
+  background-color: rgba(104, 201, 186, 0.1);
+}
+.n:nth-child(even) {
+  background-color: rgba(156, 105, 226, 0.1);
+}
+.img1{background-image: url(img/7ba1dda1fab4af707def69fa8e4d2a0b.png);}
+.img2{background-image: url(img/6441ecd1919c84f36a65eabdc8138a2c.png);}
+.img3{background-image: url(img/2f3e743d08b2c66de2a7a23d4228df91.png);}
+.img4{background-image: url(img/af78d7add1e7940c7af1b7f896b757e0.png);}
+
+.img1,
+.img2,
+.img3,
+.img4{
+  transform: translate(-200px, 20px);
+  height: 240px;
+  width: 240px;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
 }
