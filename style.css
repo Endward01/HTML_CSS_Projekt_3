@@ -1,16 +1,11 @@
-@font-face {
-  font-family: Helvetica;
-  src: url(font/Helvetica.ttf);
-}
-@font-face {
-  font-family: Avenir;
-  src: url(font/AvenirLTStd-Black.otf);
+html,
+button {
+  font-family: "Avenir";
 }
 * {
   scroll-behavior: smooth;
 }
 body * {
-  font-family: "Avenir";
   box-sizing: border-box;
 }
 html,
@@ -141,6 +136,9 @@ a:active {
   height: 35px;
   background: #f063b8;
   border-radius: 20px;
+}
+div.figure{
+  padding: 0;
 }
 .first {
   display: flex;
@@ -359,7 +357,6 @@ h5 {
     rgba(255, 255, 255, 0) 100%
   );
   border-radius: 20px;
-  /* transform: translate(-14px, 0px); */
   border: 1px solid #9c69e2;
 }
 .person_1,
@@ -735,6 +732,10 @@ h6 {
     display: flex;
     flex-direction: row;
   }
+  .person_info .person_name,
+  .person_info .person_web {
+    padding: 0;
+  }
   .person_1,
   .person_2,
   .person_3 {
@@ -762,11 +763,15 @@ h6 {
     text-align: left;
   }
   .foto {
-    transform: translate(0px, -60px);
+    transform: translate(-8px, -45px);
   }
   .fourth_menu {
     flex-direction: row;
     width: 85%;
+  }
+  .foto {
+    height: 90px;
+    width: 90px;
   }
   .big_circle {
     width: 10px;
@@ -823,7 +828,7 @@ h6 {
   .figure .figure_2 {
     width: 20px;
   }
-  .footer_2_1_1 .figure{
+  .footer_2_1_1 .figure {
     margin-right: 20px;
   }
 }
