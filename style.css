@@ -1,9 +1,9 @@
-@import url('http://fonts.cdnfonts.com/css/avenir');
-@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
 
 html,
 button {
-  font-family: 'Avenir', 'Helvetica Neue', sans-serif;
+  font-family: "Nunito", "IBM Plex Sans", sans-serif;
 }
 * {
   scroll-behavior: smooth;
@@ -140,7 +140,7 @@ a:active {
   background: #f063b8;
   border-radius: 20px;
 }
-div.figure{
+div.figure {
   padding: 0;
 }
 .first {
@@ -157,8 +157,8 @@ div.figure{
   align-items: flex-start;
 }
 .first_left h1 {
-  font-family: 'Helvetica Neue';
-  
+  font-family: "IBM Plex Sans";
+
   font-size: 3rem;
   line-height: 110%;
 }
@@ -209,7 +209,7 @@ div.figure{
   text-align: center;
 }
 .second_right h2 {
-  font-family: 'Helvetica Neue';
+  font-family: "IBM Plex Sans";
   font-size: 2.5rem;
   line-height: 52px;
 }
@@ -227,12 +227,12 @@ div.figure{
   text-align: center;
 }
 .third h3 {
-  font-family: 'Helvetica Neue';
+  font-family: "IBM Plex Sans";
   font-size: 3rem;
   line-height: 52px;
 }
 .third h4 {
-  font-family: 'Helvetica Neue';
+  font-family: "IBM Plex Sans";
   font-size: 1.6rem;
   line-height: 52px;
 }
@@ -334,7 +334,7 @@ div .third_cont {
   background-color: #9c69e2;
 }
 h5 {
-  font-family: 'Helvetica Neue';
+  font-family: "IBM Plex Sans";
   justify-content: center;
   font-size: 40px;
   color: #fff;
@@ -509,7 +509,7 @@ div .line {
   align-items: center;
 }
 h6 {
-  font-family: 'Helvetica Neue';
+  font-family: "IBM Plex Sans";
   font-size: 40px;
 }
 .footer_2_1_1 p,
@@ -721,9 +721,8 @@ h6 {
     align-items: stretch;
     justify-content: space-evenly;
   }
-  .third_info p{
+  .third_info p {
     width: 90%;
-
   }
   .fourth .container {
     align-items: flex-start;
