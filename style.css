@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
 html,
 button {
-  font-family: "Avenir";
+  font-family: "Nunito", "IBM Plex Sans", sans-serif;
 }
 * {
   scroll-behavior: smooth;
@@ -28,7 +31,7 @@ a,
 button,
 span {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 160%;
 }
 h1,
@@ -60,7 +63,6 @@ span {
   display: flex;
 }
 .container {
-  display: flex;
   width: 95%;
   margin: 0 auto;
   align-self: center;
@@ -138,16 +140,14 @@ a:active {
   background: #f063b8;
   border-radius: 20px;
 }
-div.figure{
+div.figure {
   padding: 0;
 }
 .first {
-  display: flex;
   height: 75vh;
   align-items: center;
 }
 .first_left {
-  display: flex;
   width: 100%;
   height: 80%;
   justify-content: flex-start;
@@ -155,7 +155,8 @@ div.figure{
   align-items: flex-start;
 }
 .first_left h1 {
-  font-family: "Helvetica";
+  font-family: "IBM Plex Sans";
+
   font-size: 3rem;
   line-height: 110%;
 }
@@ -199,14 +200,13 @@ div.figure{
 .second_right {
   z-index: 99;
   height: auto;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 .second_right h2 {
-  font-family: "Helvetica";
+  font-family: "IBM Plex Sans";
   font-size: 2.5rem;
   line-height: 52px;
 }
@@ -214,7 +214,6 @@ div.figure{
   flex-direction: column;
 }
 .third_main {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -224,25 +223,23 @@ div.figure{
   text-align: center;
 }
 .third h3 {
-  font-family: "Helvetica";
+  font-family: "IBM Plex Sans";
   font-size: 3rem;
   line-height: 52px;
 }
 .third h4 {
-  font-family: "Helvetica";
+  font-family: "IBM Plex Sans";
   font-size: 1.6rem;
   line-height: 52px;
 }
 .third_cont {
   height: 70%;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .third_cont .n {
   width: 95%;
   height: 353px;
-  display: flex;
   border-radius: 50px;
   flex-direction: column;
   align-items: flex-start;
@@ -303,14 +300,12 @@ div .third_cont {
 }
 .third_info {
   z-index: 99;
-  display: flex;
   height: 90%;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 .third_btn {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   width: 150px;
@@ -322,7 +317,6 @@ div .third_cont {
   flex-direction: column;
 }
 .fourth .container {
-  display: flex;
   height: 700px;
   flex-direction: column;
   align-items: center;
@@ -331,7 +325,7 @@ div .third_cont {
   background-color: #9c69e2;
 }
 h5 {
-  font-family: Helvetica;
+  font-family: "IBM Plex Sans";
   justify-content: center;
   font-size: 40px;
   color: #fff;
@@ -433,14 +427,12 @@ h5 {
   background-image: url(img/4c73c7d6d5b8bb74b6664e8e099c3d9b.jpg);
 }
 .fourth_menu {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .dots {
   width: 80px;
   height: 25px;
-  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -506,7 +498,7 @@ div .line {
   align-items: center;
 }
 h6 {
-  font-family: "Helvetica";
+  font-family: "IBM Plex Sans";
   font-size: 40px;
 }
 .footer_2_1_1 p,
@@ -547,7 +539,6 @@ h6 {
 }
 .footer_2_4 {
   width: 100%;
-  display: flex;
   align-items: center;
   text-align: center;
 }
@@ -607,9 +598,6 @@ h6 {
     width: 354px;
     height: 353px;
   }
-  /* .footer_2_1{
-    width: 60%;
-  } */
 }
 
 @media screen and (min-width: 1024px) {
@@ -646,7 +634,6 @@ h6 {
     width: 70%;
   }
   .second .container {
-    display: flex;
     flex-direction: row;
   }
   .second_left {
@@ -654,7 +641,6 @@ h6 {
     height: 504px;
   }
   .container .second_right {
-    display: flex;
     justify-content: space-evenly;
     width: 55%;
     text-align: left;
@@ -712,11 +698,13 @@ h6 {
     background-image: url(img/4.png);
   }
   .n .third_info {
-    display: flex;
     margin-left: 130px;
     align-content: center;
     align-items: stretch;
     justify-content: space-evenly;
+  }
+  .third_info p {
+    width: 90%;
   }
   .fourth .container {
     align-items: flex-start;
@@ -730,7 +718,6 @@ h6 {
     margin: 80px 0 80px 95px;
   }
   .fourth_person {
-    display: flex;
     flex-direction: row;
   }
   .person_info .person_name,
@@ -740,7 +727,6 @@ h6 {
   .person_1,
   .person_2,
   .person_3 {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     background: #ffffff;
@@ -792,7 +778,6 @@ h6 {
     align-items: center;
   }
   .container .footer_2 {
-    display: flex;
     flex-wrap: nowrap;
   }
   div.footer_1,
@@ -822,7 +807,7 @@ h6 {
     width: 60%;
   }
   .container .footer_3 {
-    display: flex;
+
     flex-direction: row;
   }
   .figure .figure_1,
